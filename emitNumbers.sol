@@ -9,6 +9,11 @@ pragma solidity ^0.8.16;
 gas [emit1, emit2, emit3] = [201470 gas, 186219 gas, 83000 gas]
 transaction cost [emit1, emit2, emit3] = [175191 gas, 161929 gas, 159130 gas]
 execution cost [emit1, emit2, emit3] = [154127 gas, 140865 gas, 138066 gas]
+
+reference - https://ethereum.github.io/yellowpaper/paper.pdf
+gas cost for contract storage - 200 gas per byte
+gas cost for local value - 20 gas per byte
+hardcoding - 2 gas per byte
 */
 
 contract EmitNumbers {
