@@ -37,6 +37,8 @@ Example -
 
 ## About Transactions 
 
+In Ethereum, a transaction represents an action or operation initiated by an external account (EOA) or a smart contract. It is a fundamental unit of interaction on the Ethereum network, allowing users to send Ether (ETH) or trigger smart contract functions.
+
 Transactions, which change the state of the EVM, need to be broadcast to the whole network. Any node can broadcast a request for a transaction to be executed on the EVM; after this happens, a validator will execute the transaction and propagate the resulting state change to the rest of the network.
 
 Transactions require a fee and must be included in a validated block.
