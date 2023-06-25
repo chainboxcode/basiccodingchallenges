@@ -43,3 +43,9 @@ In Ethereum, a transaction represents an action or operation initiated by an ext
 Transactions, which change the state of the EVM, need to be broadcast to the whole network. Any node can broadcast a request for a transaction to be executed on the EVM; after this happens, a validator will execute the transaction and propagate the resulting state change to the rest of the network.
 
 Transactions require a fee and must be included in a validated block.
+
+## Transaction Types
+- Regular transactions: a transaction from one account to another.
+- Contract deployment transactions: a transaction without a 'to' address, where the data field is used for the contract code.
+- Execution of a contract: a transaction that interacts with a deployed smart contract. In this case, 'to' address is the smart contract address.
+  
