@@ -5,7 +5,7 @@ pragma solidity ^0.8.16;
 // The view function consumes less gas. 
 // Here are the test results - 
 // addPayble - gas	29681 gas, transaction cost	25809 gas, execution cost	4745 gas
-// addView - execution cost	4747 gas
+// addView - execution cost	4747 gas (Cost only applies when called by a contract, otherwise 0 gas when directly called)
 // This shows the additional cost is 25809 gas due to the transaction cost.
 
 contract AddNumbers {
