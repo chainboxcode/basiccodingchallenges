@@ -8,15 +8,15 @@ Which is the following is not in an Ethereum transaction -
 A transaction consists of the following components - 
 | Component | Transaction | 
 | :------: | :-------: | 
-| from | the address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions. |
-| recipient | the receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code) |
-| signature | the identifier of the sender. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction |
-| nonce | a sequentially incrementing counter which indicates the transaction number from the account |
-| value | amount of ETH to transfer from sender to recipient (denominated in WEI, where 1ETH equals 1e+18wei) |
-| data | optional field to include arbitrary data |
-| gasLimit | the maximum amount of gas units that can be consumed by the transaction. The EVM specifies the units of gas required by each computational step |
-| maxPriorityFeePerGas | the maximum price of the consumed gas to be included as a tip to the validator |
-| maxFeePerGas | the maximum fee per unit of gas willing to be paid for the transaction (inclusive of baseFeePerGas and maxPriorityFeePerGas) |
+| from | The address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions. |
+| recipient | The receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code). |
+| signature | The identifier of the sender. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction. |
+| nonce | A sequentially incrementing counter which indicates the transaction number from the account. |
+| value | Amount of ETH to transfer from sender to recipient (denominated in WEI, where 1ETH equals 1e+18wei). |
+| data | Optional field to include arbitrary data. |
+| gasLimit | The maximum amount of gas units that can be consumed by the transaction. The EVM specifies the units of gas required by each computational step. |
+| maxPriorityFeePerGas | The maximum price of the consumed gas to be included as a tip to the validator. |
+| maxFeePerGas | The maximum fee per unit of gas willing to be paid for the transaction (inclusive of baseFeePerGas and maxPriorityFeePerGas). |
 
 [Docs](https://ethereum.org/en/developers/docs/transactions/)
 
