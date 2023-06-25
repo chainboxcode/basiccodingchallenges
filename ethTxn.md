@@ -7,7 +7,7 @@ Which is the following is not in an Ethereum transaction -
 
 A transaction consists of the following components - 
 | Component | Transaction | 
-| :------: | :------- | 
+| :------: | :-------: | 
 | from | the address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions. |
 | recipient | the receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code) |
 | signature | the identifier of the sender. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction |
@@ -25,13 +25,13 @@ Hence in the question asked, Function is not part of the transaction.
 Example - 
 ```json
 {
-  from: "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-  to: "0xac03bb73b6a9e108530aff4df5077c2b3d481e5a",
-  gasLimit: "21000",
-  maxFeePerGas: "300",
-  maxPriorityFeePerGas: "10",
-  nonce: "0",
-  value: "10000000000"
+  "from": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
+  "to": "0xac03bb73b6a9e108530aff4df5077c2b3d481e5a",
+  "gasLimit": "21000",
+  "maxFeePerGas": "300",
+  "maxPriorityFeePerGas": "10",
+  "nonce": "0",
+  "value": "10000000000"
 }
 ```
 
