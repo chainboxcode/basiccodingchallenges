@@ -31,7 +31,8 @@ Example -
   "maxFeePerGas": "300",
   "maxPriorityFeePerGas": "10",
   "nonce": "0",
-  "value": "10000000000"
+  "value": "10000000000",
+  "signature": "0x47...42"
 }
 ```
 
