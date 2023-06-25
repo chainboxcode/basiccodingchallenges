@@ -6,7 +6,7 @@ Which is the following is not in an Ethereum transaction -
 - From
 
 A transaction consists of the following components - 
-| Component | Transaction | 
+| Component | Description | 
 | :------: | :-------: | 
 | from | The address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions. |
 | recipient | The receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code). |
