@@ -10,7 +10,7 @@
 
    Also -
    
-   1. Transferring ether: As the other AI tool mentioned, transferring ether typically involves a simple transfer of ether from one address to another. It involves a basic value transfer and does not require complex operations or additional contract interactions. Therefore, it generally consumes a relatively low amount of gas compared to other transactions. The gas cost of transferring ether is typically around 20,000 gas.
+1. Transferring ether: As the other AI tool mentioned, transferring ether typically involves a simple transfer of ether from one address to another. It involves a basic value transfer and does not require complex operations or additional contract interactions. Therefore, it generally consumes a relatively low amount of gas compared to other transactions. The gas cost of transferring ether is typically around 20,000 gas.
    
 2. Transferring USDC: As the other AI tool mentioned, transferring USDC also typically involves a simple transfer of value. However, USDC is an ERC20 token, which means it is a smart contract-based token. This means that transferring USDC also involves updating balances and approvals within the USDC token contract. The gas cost of transferring USDC is typically around 30,000 gas.
 
